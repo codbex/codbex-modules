@@ -1,0 +1,153 @@
+{
+    "guid": "codbex-modules",
+    "dependencies": [
+        {
+            "guid": "codbex-account",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-accounts.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-invoices",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-invoices.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-payments",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-payments.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-opportunities",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-opportunities.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-orders",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-orders.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-inventory",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-inventory.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-products",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-products.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-assets",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-assets",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-projects",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-projects.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-employees",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-employees.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-vacations",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-vacations.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-hera-print",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-hera-print.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-branding",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-branding.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-number-generator",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-number-generator.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-salaries",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-salaries.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-payrolls",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-payrolls.git",
+            "branch": "main"
+        },
+        {
+            "guid": "ide-branding",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-branding.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-hestia-print",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-hestia-print.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-order-inventory-ext",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-order-inventory-ext.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-order-invoice-ext",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-order-invoice-ext.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-invoice-inventory-ext",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-invoice-inventory-ext.git",
+            "branch": "main"
+        },
+        {
+            "guid": "codbex-order-payment-ext",
+            "type": "git",
+            "url": "https://github.com/codbex/codbex-order-payment-ext.git",
+            "branch": "main"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Build TypeScript",
+            "commands": [
+                {
+                    "os": "unix",
+                    "command": "tsc"
+                },
+                {
+                    "os": "windows",
+                    "command": "cmd /c tsc"
+                }
+            ],
+            "registry": "true"
+        }
+    ]
+}
